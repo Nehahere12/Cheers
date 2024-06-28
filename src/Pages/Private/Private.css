@@ -1,0 +1,16 @@
+.private {
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 60%;
+}
+.private h2 {
+  margin-top: 5%;
+  font-size: 3rem;
+  color: rgb(69, 147, 69);
+  margin-left: 20%;
+}
+.privacy {
+  font-size: 1.4rem;
+  color: black;
+  width: 100%;
+}

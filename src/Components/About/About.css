@@ -1,0 +1,17 @@
+.head1 {
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 60%;
+}
+.head1 h2 {
+  margin-top: 5%;
+  font-size: 3rem;
+  color: rgb(69, 147, 69);
+  margin-left: 35%;
+  padding-bottom: 3%;
+}
+.about {
+  font-size: 1.4rem;
+  color: black;
+  width: 100%;
+}

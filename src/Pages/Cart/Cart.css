@@ -1,0 +1,90 @@
+.Cart {
+  margin-top: 100px;
+}
+.Cartitemstitle {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  color: grey;
+  font-size: max(1vw, 12px);
+}
+.Cartitemsitem {
+  margin: 10px 0;
+  color: black;
+}
+.Cartitemsitem img {
+  width: 50px;
+}
+.Cart hr {
+  height: 1px;
+  background-color: #e2e2e2;
+  border: none;
+}
+.Cartitemsitem .cross {
+  cursor: pointer;
+}
+.Cartbottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: max(12vw, 20px);
+}
+.Carttotal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Carttotaldetails {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+.Carttotal hr {
+  margin: 10px 0px;
+}
+.Carttotal button {
+  border: none;
+  color: #fff;
+  background-color: rgb(69, 147, 69);
+  width: max(15vw, 200px);
+  padding: 12px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Cartpromocode {
+  flex: 1;
+}
+.Cartpromocode p {
+  color: #555;
+}
+.Cartpromocodeinput {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+.Cartpromocodeinput input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.Cartpromocodeinput button {
+  width: max(10vw, 150px);
+  padding: 12px 5px;
+  background-color: black;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+@media (max-width: 750px) {
+  .Cartbottom {
+    flex-direction: column-reverse;
+  }
+  .Cartpromocode {
+    justify-content: start;
+  }
+}
