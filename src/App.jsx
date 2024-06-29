@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import Loginpopup from "./Components/Loginpopup/Loginpopup";
 import Private from "./Pages/Private/Private";
 
+
 const App = () => {
   const [showlogin, setShowlogin] = useState(false);
   return (
